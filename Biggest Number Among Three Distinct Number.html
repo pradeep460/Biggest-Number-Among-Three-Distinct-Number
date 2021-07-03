@@ -1,0 +1,35 @@
+<!--Take three number as a input from the user and check which number is the biggest one-->
+
+<! DOCKTYPE html>
+<html>
+    <head>
+        <title>
+            Biggest Number Among Three Distinct Number
+        </title>
+    </head>
+    <body>
+        <center>
+            <h3>
+                <u>Find The Biggest Number among three different Number</u>
+            </h3>
+        </center>
+        <script>
+            var num1 = prompt("Enter the First number");
+            var num2 = prompt("Enter the Second number");
+            var num3 = prompt("Eneter Your Third number");
+            
+            if(num1>num2 && num1>num3)
+            {
+                document.write("Biggest Number is "+num1);
+            }
+            else if(num2>num1 && num2>num3)
+            {
+                document.write("Biggest number is "+num2);
+            }
+            else if(num3>num1 && num3>num2)
+            {
+                document.write("Biggest number is "+num3);
+            }
+        </script>
+    </body>
+</html>
